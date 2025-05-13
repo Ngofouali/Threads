@@ -25,3 +25,6 @@
 <br/>
 <p>Après exécution du programme Main, on observe un entrelacement des sorties : Les messages affichés par les différents threads (avec Thread [id] : ...) 
 ne s'affichent pas par blocs complets de 100 lignes pour chaque thread. Au lieu de cela, on observe des lignes provenant de différents threads mélangées.</p>
+<br/>
+<br/>
+<h2>Exercice 2</h2>
