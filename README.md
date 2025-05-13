@@ -28,3 +28,23 @@ ne s'affichent pas par blocs complets de 100 lignes pour chaque thread. Au lieu 
 <br/>
 <br/>
 <h2>Exercice 2</h2>
+<br/>
+<h3>Création de la classe Sommeur implémentant Runnable</h3>
+    <ul>
+        <li>Création de la classe Sommeur implémentant Runnable</li>
+        <li> + Constructeur de la classe Sommeur avec les arguments</li>
+        <li> + Méthode getSommeur() renvoyant la somme calculée</li>
+    </ul>
+<img src="captures/exercice2/creation-classe-sommeur.png">
+<br/>
+<h3>Création de la classe Main()</h3>
+    <ul>
+        <li>Division du tableau d'entiers en plusieurs plages et création d'un pool de threads</li>
+        <li> + Fin des threads et affichage de la somme total du tableau</li>
+    </ul>
+<img src="captures/exercice2/Main.png">
+<br/>
+<br/>
+<br/>
+<img src="captures/exercice2/Tests.png">
+

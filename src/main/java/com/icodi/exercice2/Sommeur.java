@@ -17,11 +17,11 @@ public class Sommeur implements Runnable{
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName() + " calcule de " + debut + " à " + fin);
-        long sommeLocale = 0; // Variable locale pour le calcul
+        long sommeLocale = 0;
         for (int i = debut; i <= fin; i++) {
             sommeLocale += this.tableau[i];
         }
-        this.sommePartielle = sommeLocale; // Stocke le résultat final
+        this.sommePartielle = sommeLocale;
 
         System.out.println(Thread.currentThread().getName() + " a terminé. Somme partielle = " + this.sommePartielle);
     }
